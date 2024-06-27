@@ -1,0 +1,29 @@
+.d,
+.roomIcon {
+  position: absolute;
+}
+.roomIcon {
+  height: 99.66%;
+  width: 100%;
+  top: 0.34%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 0.86px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.d {
+  top: 10.34%;
+  left: 25%;
+  line-height: 120%;
+}
+.destinationIcon {
+  width: 22px;
+  height: 29px;
+  text-align: center;
+  font-size: var(--txt-small-bold-size);
+  color: var(--white);
+  font-family: var(--txt-small-bold);
+}

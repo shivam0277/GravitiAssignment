@@ -1,0 +1,214 @@
+.gravitiLogo1 {
+  position: absolute;
+  top: 13px;
+  left: 56px;
+  width: 160px;
+  height: 69px;
+  object-fit: cover;
+}
+.distance {
+  font-weight: 600;
+}
+.typographySubtitleLgSemiContainer {
+  align-self: stretch;
+  position: relative;
+  line-height: 120%;
+}
+.title {
+  position: absolute;
+  width: calc(100% - 880px);
+  top: 136px;
+  right: 440px;
+  left: 440px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--brandcolorprimary);
+  font-family: var(--font-work-sans);
+}
+.groupChild,
+.groupInner,
+.groupItem {
+  position: absolute;
+  background-color: var(--white);
+  box-sizing: border-box;
+}
+.groupChild {
+  top: 25px;
+  left: 0;
+  border-radius: var(--br-7xs);
+  border: 1px solid var(--color-lavender);
+  width: 250px;
+  height: 45px;
+}
+.groupInner,
+.groupItem {
+  top: 39px;
+  left: 15px;
+  border-radius: 50%;
+  border: 2px solid var(--text);
+  width: 16px;
+  height: 16px;
+}
+.groupInner {
+  top: 41.8px;
+  left: 17.8px;
+  background-color: var(--color-limegreen);
+  border: 1px solid var(--color-limegreen);
+  width: 10.4px;
+  height: 10.4px;
+}
+.mumbai,
+.origin {
+  position: absolute;
+  top: 0;
+  left: 3px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  width: 111px;
+  height: 22px;
+}
+.mumbai {
+  top: 30px;
+  left: 42px;
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  color: var(--color-darkslategray-100);
+  width: 158px;
+  height: 35px;
+}
+.locationInput {
+  position: absolute;
+  top: 30px;
+  left: 42px;
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  color: var(--color-darkslategray-100);
+  width: 158px;
+  height: 35px;
+  border: none;
+  background: none;
+}
+.ellipseDiv,
+.rectangleParent {
+  position: absolute;
+  top: 224px;
+  left: 148px;
+  width: 250px;
+  height: 70px;
+}
+.ellipseDiv {
+  top: 40px;
+  left: 16px;
+  border-radius: 50%;
+  background-color: var(--white);
+  border: 5px solid var(--text);
+  box-sizing: border-box;
+  width: 14px;
+  height: 14px;
+}
+.addAnotherStop,
+.groupContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 70px;
+}
+.addAnotherStop {
+  left: 19px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 129px;
+  height: 25px;
+}
+.addAltIcon {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+}
+.addAnotherStopParent {
+  position: absolute;
+  top: 78px;
+  left: 93px;
+  width: 148px;
+  height: 25px;
+  text-align: center;
+  font-size: 15px;
+  color: var(--text);
+  font-family: var(--font-rubik);
+}
+.groupParent,
+.groupParent1 {
+  position: absolute;
+  top: 322px;
+  left: 148px;
+  width: 250px;
+  height: 103px;
+}
+.groupParent1 {
+  top: 442px;
+  left: 145px;
+  height: 70px;
+}
+.buttonLgNeutralWhite {
+  position: absolute;
+  top: calc(50% - 10px);
+  left: calc(50% - 38.5px);
+  line-height: 20px;
+  font-weight: 600;
+}
+.cta {
+  position: absolute;
+  top: 313px;
+  left: 503px;
+  border-radius: 32px;
+  background-color: var(--brandcolorprimary);
+  width: 141px;
+  height: 62px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 18px;
+  color: var(--white);
+  font-family: var(--font-poppins);
+  cursor: pointer;
+}
+.distanceResult {
+  position: absolute;
+  top: 500px;
+  left: 503px;
+  font-size: 18px;
+  color: var(--text);
+  font-family: var(--font-poppins);
+}
+.desktop1 {
+  position: relative;
+  width: 1152px;
+  height: 864px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-rubik);
+  background-color: var(--white);
+}
+
+/* Add this to your existing Desktop.module.css */
+
+.map {
+  position: absolute;
+  top: 155px;
+  left: 475px;
+  width: 650px;
+  height: 300px;
+  border: 1px solid #ccc;
+}

@@ -1,0 +1,7 @@
+.surfaceElevationRested {
+  width: 328px;
+  box-shadow: var(--level1);
+  border-radius: var(--br-5xs);
+  background-color: var(--white);
+  height: 144px;
+}

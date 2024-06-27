@@ -1,0 +1,56 @@
+.capture1Icon,
+/* .originIcon {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+} */
+.capture1Icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  object-fit: cover;
+}
+.originIcon {
+  height: 2.74%;
+  width: 2.5%;
+  top: 93.74%;
+  right: 80%;
+  bottom: 3.52%;
+  left: 17.5%;
+}
+.card,
+.originIcon,
+.stopIcon {
+  position: absolute;
+}
+.stopIcon {
+  height: 2.74%;
+  width: 2.5%;
+  top: 27.01%;
+  right: 66.43%;
+  bottom: 70.25%;
+  left: 31.07%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.card {
+  top: 209px;
+  left: 790px;
+  width: 560px;
+  height: 511px;
+} 
+
+
+
+
+
+
+
+
+
+

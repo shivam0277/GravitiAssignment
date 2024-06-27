@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --txt-small-bold: Montserrat;
+  --font-ibm-plex-sans: "IBM Plex Sans";
+  --font-rubik: Rubik;
+  --font-work-sans: "Work Sans";
+
+  /* font sizes */
+  --txt-small-bold-size: 13px;
+  --font-size-xl: 20px;
+  --font-size-11xl: 30px;
+  --font-size-xs: 12px;
+  --font-size-base: 16px;
+  --font-size-sm: 14px;
+
+  /* Colors */
+  --white: #fff;
+  --brandcolorprimary: #1b31a8;
+  --bluegray50: #e9eef2;
+  --text: #2e2e2e;
+  --color-darkslategray-100: #1e2a32;
+  --brandcolorsecondary: #0079ff;
+  --color-black: #000;
+  --color-lavender: #dcddec;
+  --color-limegreen: #32cd32;
+
+  /* Border radiuses */
+  --br-12xs-9: 0.9px;
+  --br-5xs: 8px;
+  --br-7xs: 6px;
+
+  /* Effects */
+  --level4: 0px 16px 32px rgba(30, 42, 50, 0.08);
+  --level1: 0px 4px 8px rgba(30, 42, 50, 0.08);
+}

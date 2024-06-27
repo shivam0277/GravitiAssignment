@@ -1,0 +1,97 @@
+.grayBgIcon,
+.whiteBgIcon {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.whiteBgIcon {
+  height: 98.1%;
+  bottom: 1.9%;
+  border-radius: var(--br-5xs);
+}
+.grayBgIcon {
+  height: 100%;
+  bottom: 0;
+}
+.typographyCaptionHighemphContainer {
+  align-self: stretch;
+  position: relative;
+  line-height: 120%;
+}
+.breakdown {
+  position: absolute;
+  width: calc(100% - 64px);
+  top: 26px;
+  right: 32px;
+  left: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.detail {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 80px;
+  overflow: hidden;
+}
+.typographyHeadingmediumLg {
+  position: relative;
+  line-height: 120%;
+}
+.amount,
+.monthlyAmount1 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.amount {
+  top: 0;
+  left: calc(50% + 70px);
+}
+.monthlyAmount1 {
+  width: calc(100% - 192px);
+  top: 7px;
+  right: 192px;
+  left: 0;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslategray-100);
+}
+.monthlyAmount {
+  position: absolute;
+  width: calc(100% - 52px);
+  top: 23px;
+  right: 26px;
+  left: 26px;
+  height: 38px;
+  overflow: hidden;
+  text-align: right;
+  font-size: var(--font-size-11xl);
+  color: var(--brandcolorsecondary);
+}
+.monthlyamountInfo {
+  position: absolute;
+  top: 551px;
+  left: 145px;
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--bluegray50);
+  box-sizing: border-box;
+  width: 490px;
+  height: 158px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-ibm-plex-sans);
+}
